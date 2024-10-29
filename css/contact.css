@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1120px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: #181717;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+}
+header .h1{
+    font: 500 50px DM Sans;
+    line-height: 48.6px;
+}
+header .paragraph-block{
+    font: 500 22px DM Sans;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+main{
+    margin-top:115px;
+    margin-bottom: 102px;
+}
+main h1{
+    font: 500 60px DM Sans;
+    line-height: 58.32px;
+    margin-bottom: 32px;
+}
+main p{
+    font: 400 22px DM Sans;
+    line-height: 25.74px;
+    color: #606060;
+}
+main .attention-message{
+    margin-bottom: 52px;
+}
+main .input-flex .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 90px;
+}
+main .input-flex .inputs input{
+    width: 676px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #C4C4C4;
+    padding-left: 22px;
+}
+main .input-flex .messages{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+main .input-flex .messages .number-message{
+    max-width: 100px;
+}
+main .input-flex{
+    display: flex;
+    margin-bottom: 30px;
+}
+main button{
+    background: #000;
+    width: 162px;
+    height: 42px;
+    border-radius: 5px;
+    color: #000;
+}
+main button p{
+    font: 700 18px DM Sans;
+    line-height: 23.44px;
+    color: #FFFFFF;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 176px;
+}
+footer .socials{
+    display: flex;
+}
+footer .name{
+    margin-right: 35px;
+    font: 500 22px DM Sans;
+    line-height: 26.4px;
+    color: #2429AF;
+}
+footer .socials .socials-item{
+    margin-right: 35px;
+    font: 500 22px DM Sans;
+    line-height: 26.4px;
+    color:  #181717;
+}

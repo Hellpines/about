@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1120px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+}
+a{
+    text-decoration: none;
+    color: #181717;
+}
+header .h1{
+    font: 500 50px DM Sans;
+    line-height: 48.6px;
+}
+header .paragraph-block{
+    font: 500 22px DM Sans;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+main {
+    margin-top: 153px;
+}
+main .description, .hard-skills, .soft-skills {
+    display: flex;
+}
+main .description{
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+main .description .left h1{
+    font: 500 60px DM Sans;
+    line-height: 58.32px;
+    color: #181717;
+    margin-bottom: 47px;
+    max-width: 330px;
+}
+main .description .left .main-info, main .description .left .education{
+    font: 400 24px DM Sans;
+    line-height: 28.08px;
+    color: #606060;
+    max-width: 550px;
+    margin-bottom: 25px;
+}
+
+main .description .grey-block{
+    height: 457px;
+    width: 406px;
+    background: #606060;
+}
+main .hard-skills{
+    margin-bottom: 86px;
+}
+main .soft-skills{
+    margin-bottom: 110px;
+}
+main .hard-skills .title{
+    text-decoration: underline;
+    font: 500 22px DM Sans;
+    line-height: 26.73px;
+    color: #181717;
+    margin-right: 56px;
+    max-width: 109px;
+}
+main .soft-skills .title{
+    text-decoration: underline;
+    font: 500 22px DM Sans;
+    line-height: 26.73px;
+    color: #181717;
+    margin-right: 63px;
+    max-width: 109px;
+}
+main .hard-skills .right-info , main .soft-skills .right-info {
+    max-width: 321px;
+    font: 400 20px DM Sans;
+    line-height: 24.3px;
+    color: #181717;
+}
+main .email{
+    margin-bottom: 135px;
+}
+main .email .email-left{
+    display: flex;
+}
+main .email .email-left p{
+    font: 400 32px DM Sans;
+    line-height: 37.44px;
+    max-width: 340px;
+}
+main .email .email-left .arrow{
+    width: 24px;
+    height: 21px;
+    padding-top: 9px;
+    margin-right: 318px;
+}
+.line{
+    height: 2px;
+    background: #181717;
+    margin-bottom: 114px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 172px;
+    font: 500 22px DM Sans;
+    line-height: 26.4px;
+}
+footer .socials{
+    display: flex;
+}
+
+footer .name{
+
+    line-height: 26.4px;
+    color: #2429AF;
+}
+footer .socials .socials-item{
+    margin-right: 35px;
+    color:  #181717;
+}
